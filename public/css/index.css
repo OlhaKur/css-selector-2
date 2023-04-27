@@ -2,12 +2,12 @@ html {
   max-width: 960px;
 }
 
-.lesson-four-task-one > .btn:hover {
+.lesson-four-task-one .btn:hover {
   color: red;
   background: yellow;
 }
 /* 2 */
-.lesson-four-task-two > .link:hover ~ .title {
+.lesson-four-task-two .link:hover ~ .title {
   background-color: green;
 }
 /* 3 */
@@ -20,19 +20,19 @@ html {
   color: red;
 }
 /* 5 */
-.lesson-four-task-five > .btn:active {
+.lesson-four-task-five .btn:active {
   background-color: blue;
 }
 
 /* 6 */
-.lesson-four-task-six > .btn:focus {
+.lesson-four-task-six .btn:focus {
   color: orangered;
   background: orange;
 }
 /* 7 ////???????????? */
-.lesson-four-task-seven > [href='#target']:target {
-  background: green;
-  color: green;
+.lesson-four-task-seven #target:target {
+  color: white;
+  background-color: green;
 }
 
 /* 8 */
@@ -64,7 +64,7 @@ p:last-of-type {
   background-color: yellow;
 }
 
-/* 14 ????*/
+/* 14 */
 .lesson-four-task-fourteen input:valid {
   background-color: green;
 }
